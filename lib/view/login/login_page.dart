@@ -7,6 +7,8 @@ import '../admin/admin_page.dart';
 import 'sign_up_page.dart';
 
 class LoginPage extends StatefulWidget {
+  final int mycountnumber = 0;
+
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -93,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(color: Colors.white),
                 ),
                 style: ElevatedButton.styleFrom(
-                  // primary: Colors.lightGreen,
+                  //primary: Colors.lightGreen,
                   side: BorderSide(color: Colors.lightGreen, width: 2),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20.0),

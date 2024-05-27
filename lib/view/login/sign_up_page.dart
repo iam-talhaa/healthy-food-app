@@ -5,6 +5,7 @@ import '../../components/custom_app_bar.dart';
 import 'login_page.dart';
 
 class SignUpPage extends StatefulWidget {
+  final my_string_number = 'STRING';
   @override
   _SignUpPageState createState() => _SignUpPageState();
 }

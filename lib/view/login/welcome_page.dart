@@ -4,6 +4,7 @@ import 'sign_up_page.dart';
 import '../../components/custom_app_bar.dart';
 
 class WelcomePage extends StatelessWidget {
+  final int my_count = 0;
   Widget button({
     required String name,
     required Color color,

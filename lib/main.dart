@@ -27,6 +27,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     print('Built ');
+    print('provider function');
+    print('Built ');
+    print('provider function');
     return MaterialApp(
       title: "Healthy Eating",
       debugShowCheckedModeBanner: false,

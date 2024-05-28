@@ -34,6 +34,10 @@ class MyApp extends StatelessWidget {
     print('provider function');
     print('Built ');
     print('provider function');
+    print('Built ');
+    print('provider function');
+    print('Built ');
+    print('provider function');
     return MaterialApp(
       title: "Healthy Eating",
       debugShowCheckedModeBanner: false,

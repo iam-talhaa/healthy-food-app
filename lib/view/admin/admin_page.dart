@@ -5,6 +5,7 @@ import 'manage_manue_page.dart';
 
 class AdminPage extends StatelessWidget {
   Widget buildGenericButton(String buttonText, VoidCallback onPressed) {
+    print('TEsting');
     return Container(
       height: 40,
       width: 300,
@@ -16,7 +17,7 @@ class AdminPage extends StatelessWidget {
         ),
         style: ElevatedButton.styleFrom(
           foregroundColor: Colors.amber,
-          primary: Colors.lightGreen,
+          // primary: Colors.lightGreen,
           side: BorderSide(color: Colors.lightGreen, width: 2),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20.0),

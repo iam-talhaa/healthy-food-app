@@ -7,6 +7,14 @@ class AdminPage extends StatelessWidget {
   Widget buildGenericButton(String buttonText, VoidCallback onPressed) {
     print('TEsting');
     print('TEsting');
+    print('TEsting');
+    print('TEsting');
+    print('TEsting');
+    print('TEsting');
+    print('TEsting');
+    ;
+    print('TEsting');
+    print('TEsting');
 
     return Container(
       height: 40,

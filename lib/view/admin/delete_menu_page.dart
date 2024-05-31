@@ -11,6 +11,9 @@ class DeleteMenuPage extends StatelessWidget {
   final FirestoreService firestoreService = FirestoreService();
 
   Widget buildConfirmButton(BuildContext context) {
+    print('Testing');
+    print('Testing');
+
     return Container(
       height: 40,
       width: 300,
